@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567290C0173393A700A0EA48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567290BF173393A700A0EA48 /* Foundation.framework */; };
+		567290C3173393A700A0EA48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567290C2173393A700A0EA48 /* main.m */; };
+		567290C7173393A700A0EA48 /* PostfixConverter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 567290C6173393A700A0EA48 /* PostfixConverter.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		567290BA173393A700A0EA48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				567290C7173393A700A0EA48 /* PostfixConverter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		567290BC173393A700A0EA48 /* PostfixConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PostfixConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		567290BF173393A700A0EA48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		567290C2173393A700A0EA48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		567290C5173393A700A0EA48 /* PostfixConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostfixConverter-Prefix.pch"; sourceTree = "<group>"; };
+		567290C6173393A700A0EA48 /* PostfixConverter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PostfixConverter.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567290B9173393A700A0EA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567290C0173393A700A0EA48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567290B3173393A700A0EA48 = {
+			isa = PBXGroup;
+			children = (
+				567290C1173393A700A0EA48 /* PostfixConverter */,
+				567290BE173393A700A0EA48 /* Frameworks */,
+				567290BD173393A700A0EA48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567290BD173393A700A0EA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567290BC173393A700A0EA48 /* PostfixConverter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567290BE173393A700A0EA48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567290BF173393A700A0EA48 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		567290C1173393A700A0EA48 /* PostfixConverter */ = {
+			isa = PBXGroup;
+			children = (
+				567290C2173393A700A0EA48 /* main.m */,
+				567290C6173393A700A0EA48 /* PostfixConverter.1 */,
+				567290C4173393A700A0EA48 /* Supporting Files */,
+			);
+			path = PostfixConverter;
+			sourceTree = "<group>";
+		};
+		567290C4173393A700A0EA48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567290C5173393A700A0EA48 /* PostfixConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567290BB173393A700A0EA48 /* PostfixConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567290CA173393A700A0EA48 /* Build configuration list for PBXNativeTarget "PostfixConverter" */;
+			buildPhases = (
+				567290B8173393A700A0EA48 /* Sources */,
+				567290B9173393A700A0EA48 /* Frameworks */,
+				567290BA173393A700A0EA48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostfixConverter;
+			productName = PostfixConverter;
+			productReference = 567290BC173393A700A0EA48 /* PostfixConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567290B4173393A700A0EA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oguzhan Gungor";
+			};
+			buildConfigurationList = 567290B7173393A700A0EA48 /* Build configuration list for PBXProject "PostfixConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 567290B3173393A700A0EA48;
+			productRefGroup = 567290BD173393A700A0EA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567290BB173393A700A0EA48 /* PostfixConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567290B8173393A700A0EA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567290C3173393A700A0EA48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		567290C8173393A700A0EA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		567290C9173393A700A0EA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		567290CB173393A700A0EA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostfixConverter/PostfixConverter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		567290CC173393A700A0EA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostfixConverter/PostfixConverter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567290B7173393A700A0EA48 /* Build configuration list for PBXProject "PostfixConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567290C8173393A700A0EA48 /* Debug */,
+				567290C9173393A700A0EA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567290CA173393A700A0EA48 /* Build configuration list for PBXNativeTarget "PostfixConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567290CB173393A700A0EA48 /* Debug */,
+				567290CC173393A700A0EA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567290B4173393A700A0EA48 /* Project object */;
+}
